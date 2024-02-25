@@ -16,3 +16,5 @@ export const NAV_ITEMS = {
   [PAGE_PROGRESS]: ChartBarIcon,
   [PAGE_SETTINGS]: AdjustmentsHorizontalIcon
 }
+export const HOURS_IN_DAY = 24
+
