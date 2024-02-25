@@ -28,6 +28,6 @@ function goTo(page) {
       <TheSettings v-show="currentPage === PAGE_SETTINGS" />
     </div>
   </main>
-  <Theheader @go-to-timeline="goTo(PAGE_TIMELINE)" @go-to-progress="goTo(PAGE_PROGRESS)" />
+  <Theheader  @navigate="goTo($event)" />
   <TheNav :current-page="currentPage" @navigate="goTo($event)" />
 </template>
